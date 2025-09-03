@@ -1,0 +1,152 @@
+.body {
+    height: 400vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.banner {
+    background-image: url('assets/banner-img.jpeg');
+    background-size: cover;
+}
+
+.banner-1 {
+    padding: 5.5rem 0px 5.5rem 0px;
+}
+
+#banner-overlay {
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column-reverse;
+}
+
+.nav-hovered:hover {
+    color: black;
+}
+
+.theme-btn {
+    border: 2px solid #0d6efd;
+    box-shadow: 0px 0px 70px rgba(255, 255, 255, 0.486);
+}
+
+.theme-btn:hover {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.theme-btn-2 {
+    border: 2px solid #0d6efd;
+    box-shadow: 0px 0px 70px rgba(255, 255, 255, 0.486);
+}
+
+.theme-btn-2:hover {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.text-shadow-light {
+    text-shadow: 0px 0px 5px hsla(0, 0%, 100%, 0.1);
+}
+
+.plate * {
+    text-align: left;
+}
+
+.incentive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-title {
+    text-align: center;
+}
+
+.chance-image {
+    background-image: url('assets/AdobeStock_591468629.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chance-image-overlay {
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
+}
+
+.italix * {
+    font-style: italic;
+}
+
+
+/* sm */
+@media (max-width:576px) {
+    .chance-row {
+        margin: 0px 1.6em 1.6em 1.6em;
+    }
+
+    .chance-image-overlay {
+        padding: 2em;
+    }
+}
+
+/* md */
+@media (max-width:768px) {
+    .chance-row {
+        margin: 0px 1.7em 1.7em 1.7em;
+    }
+
+    .chance-image-overlay {
+        padding: 2em;
+    }
+}
+
+/* lg */
+@media (max-width:992px) {
+    .chance-row {
+        margin: 0px 1.8em 1.8em 1.8em;
+    }
+
+    .chance-image-overlay {
+        padding: 2em;
+    }
+}
+
+/* xl */
+@media (max-width:1200px) {
+    .chance-row {
+        margin: 0px 1.8em 1.8em 1.8em;
+    }
+
+    .chance-image-overlay {
+        padding: 2em;
+    }
+}
+
+/* xxl */
+@media (max-width:1450px) {
+    .chance-row {
+        margin: 0px 2.2em 2.2em 2.2em;
+    }
+
+    .chance-image-overlay {
+        padding: 2em;
+    }
+}
+
+/* 4k */
+@media (max-width:1950) {
+    .chance-row {
+        margin: 0px 1.7em 1.7em 1.7em;
+    }
+
+    .chance-image-overlay {
+        padding: 2em;
+    }
+
+}
