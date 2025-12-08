@@ -206,7 +206,7 @@ h3 {
     }
 
     .chance-image-overlay {
-        padding: 2em;
+        padding: 0px 10% 0px 10%;
     }
 }
 
@@ -217,7 +217,7 @@ h3 {
     }
 
     .chance-image-overlay {
-        padding: 2em;
+        padding: 0px 50% 0px 50%;
     }
 
 }
