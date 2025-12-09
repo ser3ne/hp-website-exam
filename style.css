@@ -1,6 +1,35 @@
+:root {
+    --hd1: 4rem;
+    --hd2: 2rem;
+    --hd3: 1rem;
+    --hd5: 1rem;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: var(--hd5);
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--hd1);
+}
+
+h2 {
+    font-size: var(--hd2);
+}
+
+h3 {
+    font-size: var(--hd3);
+}
+
 .body {
     height: 400vh;
-    width: 100vw;
+    width: 100%;
     margin: 0px;
 }
 
@@ -9,12 +38,30 @@
     background-size: cover;
 }
 
-.banner-1 {
-    padding: 5.5rem 0px 5.5rem 0px;
-}
-
 #banner-overlay {
     background-color: rgba(0, 0, 0, 0.56);
+}
+
+.hero-subtext {
+    font-size: 1.8rem
+}
+
+.banner-1 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.banner-foot {
+    padding: 3%;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-foot h5 {
+    width: 65%;
+
 }
 
 .nav-container {
@@ -52,16 +99,13 @@
     text-shadow: 0px 0px 5px hsla(0, 0%, 100%, 0.1);
 }
 
+.Exklusive p {
+    width: 65%;
+}
+
 .plate * {
     text-align: left;
 }
-
-.incentive {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 .card-title {
     text-align: center;
@@ -86,6 +130,30 @@
 
 /* sm */
 @media (max-width:576px) {
+
+    :root {
+        --hd1: 3.2rem
+    }
+
+    .lounge {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lounge h3 {
+        width: 70%;
+    }
+
+    .Exklusive h2 {
+        padding: 0px 3rem 0px 3rem;
+    }
+
+    .Exklusive p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .chance-row {
         margin: 0px 1.6em 1.6em 1.6em;
     }
@@ -135,18 +203,18 @@
     }
 
     .chance-image-overlay {
-        padding: 2em;
+        padding: 0px 5% 0px 5%;
     }
 }
 
 /* 4k */
-@media (max-width:1950) {
+@media (max-width:1950px) {
     .chance-row {
-        margin: 0px 1.7em 1.7em 1.7em;
+        margin: 0px 10% 10% 10%;
     }
 
     .chance-image-overlay {
-        padding: 2em;
+        padding: 0px 10% 0px 10%;
     }
 
 }
